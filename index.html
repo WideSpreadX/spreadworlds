@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+        <a-assets>
+            <img id="backyard-patio" src="./assets/images/backyard.jpg">
+          </a-assets>
+          <a-camera position="0 0 0"></a-camera>
+          <a-entity light="type: hemisphere; color: #33C; groundColor: #3C3; intensity: 2"></a-entity>
+          <a-light type="ambient" color="#222"></a-light>
+      <a-sky src="#backyard-patio"></a-sky>
+    </a-scene>
+  </body>
+</html>
