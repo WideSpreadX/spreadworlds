@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <title>WideSpread</title>
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script>
@@ -34,7 +35,7 @@
         <a-camera position="0 0 0">
             <a-cursor color="	#00ffff" opacity="1"></a-cursor>
         </a-camera>
-        <a-videosphere src="#jonny-tee" rotation="0 -90 0"></a-videosphere>
+        <a-videosphere src="#jonny-tee" rotation="0 -90 0" webkit-playsinline playsinline></a-videosphere>
         <a-image id="videoControls" src="#play" position="0 0 -2" scale="0.2 0.2 0.2" play-pause opacity="0.5"></a-image>
     </a-scene>
 </body>
